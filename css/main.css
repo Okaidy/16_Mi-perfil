@@ -1,0 +1,90 @@
+/* Inserta tu CSS aqui */
+/*letra para la pagina*/
+*{
+	font-family: Oswald;
+}
+/*quita  subrayado a letras*/
+a{
+	text-decoration: none;
+	color: black;
+}
+/*espacio del menu*/
+nav a{
+	padding: 30px;
+}
+/*margenes de menu*/
+nav{
+	margin-top:50px;
+	margin-bottom: 30px;
+}
+/*imagen de fondo*/
+.fondo{
+	background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+}
+/*comoda el logo en el header*/
+header img{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+/*color de texto dehearder*/
+header{
+	color: white;
+}
+/*cambia tamaño del nombre*/
+h1{
+	font-size: 80px;
+	margin-bottom: 40px;
+}
+/*formato para tagline*/
+header p{
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+/*ajusta tamaño de imagenes del contenido de la pagina*/
+article img {
+	width: 100%;
+}
+/*fondo para aboutme*/
+.gris{
+	background-image: url('../images/tile1.png');
+}
+/*formato para temas*/
+h3{
+	color: purple;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+/*juatifica eltexto*/
+.jus{
+	text-align: justify;
+}
+/*coloca un borde y se aplica padding para la sepracion de la imagen del borde*/
+.foto{
+	margin-bottom: 80px;
+	border: black 1px solid;
+	padding:6px;
+}
+h5{
+	color: purple;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+/*redondea imagenes y coloca borde*/
+.redondo{
+	border-radius: 100%;
+	border: 1.5px solid purple;
+	padding:6px;
+	height: 220px;
+	margin-bottom: 80px;
+}
+.pie{
+	background-image: url('../images/tile2.png');
+}
+.centro{
+	margin:0px 50px;
+}
+footer{
+	height: 350px;
+}
